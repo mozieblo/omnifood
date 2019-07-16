@@ -10,13 +10,15 @@
     box-sizing: border-box; 
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: #555;
     font-family: "Lato", "Arial", "sans-serif";
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {zoom: 1}
@@ -444,8 +446,9 @@ cite img {
 }
 
 .plan-price-meal {
-    font-size: 80%;
+    font-size: 90%;
 }
+    
 
 .plan-box ul {
     list-style: none;
@@ -453,6 +456,10 @@ cite img {
 
 .plan-box ul li {
     padding: 5px 0;
+}
+
+.plan-box div ul li span {
+    font-size: 60%;
 }
 
 /*-------------------------------------------*/
