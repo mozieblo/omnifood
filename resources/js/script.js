@@ -111,6 +111,8 @@ function setParametrs () {
     if (window.innerWidth <= 767) {
         document.getElementById('js--main-nav').classList.add('hide');
         document.getElementById('js--main-nav').classList.add('slideOutUp');
+        document.getElementById('js--nav-icona').classList.remove('ion-md-close'); 
+        document.getElementById('js--nav-icona').classList.add('ion-md-menu');  
     } else {
         document.getElementById('js--main-nav').classList.remove('hide');
         document.getElementById('js--main-nav').classList.remove('slideOutUp');
