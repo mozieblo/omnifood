@@ -57,7 +57,7 @@
     
     .main-nav {
         float: left;
-        margin-top: 35px;
+        margin-top: 20px;
         margin-left:25px;
     }
     
@@ -110,9 +110,12 @@
     
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
+    
+    .logo { height: 70px; }
 }
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
     .contact-form { width: 100%; }
+    .logo { height: 70px; }
 }
